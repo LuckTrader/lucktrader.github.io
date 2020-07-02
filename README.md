@@ -1,1 +1,0 @@
-# http://lucktrader.github.io
