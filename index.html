@@ -1,9 +1,128 @@
 <!DOCTYPE html><html lang="pt-br">
 <head>
-<meta charset = "UTF-8" >
-<meta name = "viewport" content = "width = largura do dispositivo, escala inicial = 1" >
-<script type="text/javascript" src="index.js"></script>
-<title> A hora é agora: </title>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Luck Trade</title>
+	<link href="css/seu-stylesheet.css" rel="stylesheet"/>
+	<script src="scripts/seu-script.js"></script>
+</html>
+<TABLE BORDER=0>
+
+<TR>
+
+<TD WIDTH=490 ><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_433b5"></div>
+  <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">Gráfico AAPL</span></a> por TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 490,
+  "height": 305,
+  "symbol": "NASDAQ:AAPL",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "br",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_433b5"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END --> </TD>
+
+<TD WIDTH=150 ><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_99af5"></div>
+  <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/AMEX-FAS/" rel="noopener" target="_blank"><span class="blue-text">Gráfico FAS</span></a> por TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 490,
+  "height": 305,
+  "symbol": "AMEX:FAS",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "br",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_99af5"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END --></TD>
+
+<TD WIDTH=150 BGCOLOR=RED><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/NASDAQ-AAPL/technicals/" rel="noopener" target="_blank"><span class="blue-text">Análise Técnica de AAPL</span></a> por TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+  {
+  "interval": "1m",
+  "width": 425,
+  "isTransparent": false,
+  "height": 450,
+  "symbol": "NASDAQ:AAPL",
+  "showIntervalTabs": true,
+  "locale": "br",
+  "colorTheme": "light"
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH=150 ><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_72d72"></div>
+  <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/AMEX-FAS/" rel="noopener" target="_blank"><span class="blue-text">Gráfico FAS</span></a> por TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 490,
+  "height": 305,
+  "symbol": "AMEX:FAS",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "br",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "withdateranges": true,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "details": true,
+  "container_id": "tradingview_72d72"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END --></TD>
+
+<TD WIDTH=150 BGCOLOR=RED><input type="text" name="Nome" size="40" /> </TD>
+
+<TD WIDTH=150 BGCOLOR=BLUE> <textarea rows="10" cols="40" maxlength="500"></textarea></TD>
+
+</TR>
+
+</TABLE>
+
+
 </head>
 <body>
  
