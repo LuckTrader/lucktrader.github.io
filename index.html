@@ -63,7 +63,24 @@
 </div>
 <!-- TradingView Widget END --></TD>
 
-<TD WIDTH=150 BGCOLOR=RED>VEMELHO</TD>
+<TD WIDTH=150 BGCOLOR=RED><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/NASDAQ-AAPL/technicals/" rel="noopener" target="_blank"><span class="blue-text">Análise Técnica de AAPL</span></a> por TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+  {
+  "interval": "1m",
+  "width": 425,
+  "isTransparent": false,
+  "height": 450,
+  "symbol": "NASDAQ:AAPL",
+  "showIntervalTabs": true,
+  "locale": "br",
+  "colorTheme": "light"
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></TD>
 
 </TR>
 
@@ -100,7 +117,7 @@
 
 <TD WIDTH=150 BGCOLOR=RED><input type="text" name="Nome" size="40" /> </TD>
 
-<TD WIDTH=150 BGCOLOR=BLUE> <textarea rows="10" cols="40" maxlength="500"></textarea>/TD>
+<TD WIDTH=150 BGCOLOR=BLUE> <textarea rows="10" cols="40" maxlength="500"></textarea></TD>
 
 </TR>
 
