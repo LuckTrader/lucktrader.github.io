@@ -7,13 +7,15 @@
 </head>
 <body>
 	
-  <input type="text" id="txtInput" /> <button id="myBtn" onclick="escrever(this);" >Write</button>
-<br/><span id="meuTextoVaiAqui"></span>
-    <script type="text/javascript">
-        function escrever(btn){
-  var cod = 'txtInput';
-}
-    </script>
+	<input type="text" id="txtInput" />
+	<button id="myBtn" onclick="escrever(this);" >Write</button>
+	<br/><span id="meuTextoVaiAqui"></span>
+    	<script type="text/javascript">
+		function escrever(btn){
+		var suaVariavel = document.getElementById("txtInput").value;
+		document.getElementById('meuTextoVaiAqui') = suaVariavel;
+		}
+    	</script>
 	
 <!-- Conteúdo -->
 	<!-- TradingView Widget BEGIN -->
