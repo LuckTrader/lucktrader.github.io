@@ -8,12 +8,12 @@
 <body>
 	
 	<input type="text" id="txtInput" />
-	<button id="myBtn" onclick="escrever(this);" >Write</button>
-	<br/><span id="meuTextoVaiAqui"></span>
+	<button onclick="minhaFuncao()">Write</button>
+	<br/><div id="lista"></div>
     	<script type="text/javascript">
-		function escrever(btn){
-		var suaVariavel = document.getElementById("txtInput").value;
-		document.postElementById('meuTextoVaiAqui') = suaVariavel;
+		function minhaFuncao(){
+		var acao = document.getElementById("txtInput").value;
+		document.getElementById('lista').innerHTML = acao;
 		}
     	</script>
 	
@@ -28,10 +28,7 @@
   {
   "width": 490,
   "height": 305,
-  "symbol": <script type="text/javascript">
-		document.postElementById('meuTextoVaiAqui') = suaVariavel;
-		}
-    	</script>,
+  "symbol": ,
   "interval": "D",
   "timezone": "Etc/UTC",
   "theme": "light",
