@@ -1,3 +1,7 @@
+function escrever(btn){
+  var suaVariavel = document.getElementById("txtInput").value;
+  document.getElementById('meuTextoVaiAqui').innerHTML = suaVariavel;
+}
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,10 +10,6 @@
 </head>
 <body>
 	
-	function escrever(btn){
-  var suaVariavel = document.getElementById("txtInput").value;
-  document.getElementById('meuTextoVaiAqui').innerHTML = suaVariavel;
-}
 	
 	<input type="text" id="txtInput" /> <button id="myBtn" onclick="escrever(this);" >Write</button>
 <br/><span id="meuTextoVaiAqui"></span>
