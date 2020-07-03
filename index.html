@@ -11,12 +11,10 @@
 <br/><span id="meuTextoVaiAqui"></span>
     <script type="text/javascript">
         function escrever(btn){
-  var suaVariavel = document.getElementById("txtInput").value;
-  document.getElementById('meuTextoVaiAqui').innerHTML = suaVariavel;
+  var cod = 'txtInput'.value;
 }
     </script>
 	
-	<span id="meuTextoVaiAqui">re</span>
 <!-- Conteúdo -->
 	<!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
@@ -28,7 +26,7 @@
   {
   "width": 490,
   "height": 305,
-  "symbol": "fas",
+  "symbol": cod",
   "interval": "D",
   "timezone": "Etc/UTC",
   "theme": "light",
