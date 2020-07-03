@@ -5,6 +5,16 @@
 <title>Document</title>
 </head>
 <body>
+	
+	function escrever(btn){
+  var suaVariavel = document.getElementById("txtInput").value;
+  document.getElementById('meuTextoVaiAqui').innerHTML = suaVariavel;
+}
+	
+	<input type="text" id="txtInput" /> <button id="myBtn" onclick="escrever(this);" >Write</button>
+<br/><span id="meuTextoVaiAqui"></span>
+	
+	
 <!-- Conteúdo -->
 	<!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
